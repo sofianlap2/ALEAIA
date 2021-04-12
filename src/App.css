@@ -1,38 +1,307 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: OpenSans-SemiBold;
+  font-size: 19px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #BFBEBF;
+  text-align: left;
+  font-weight: 400;
+  max-width: 1440px;
+  max-height: 2662px;
+}
+.flexcenter{
+  display: flex;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  outline: none;
+  cursor: pointer;
+}
+h1,h2,h3,h4,h5,p,span,img{
+  margin: 0;
+}
+/*-----------HEADER FULL SCREEN-------------------------*/
+header{
+  height: 75px;
+  background-color: #FFFFFF;
+}
+.logo-aleia {
+  width: 158px;
+  height: 63px;
+  margin: 5px 220px 7px 50px;
+}
+.navbar nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.navbar nav ul li{
+  color: #1D1F22;
+  font-size: 16px;
+  line-height: 21.79px;
+  margin-right: 80px ;
+  padding: 0px;
+  
+}
+.navbar-functions{
+  margin-right: 0 !important;
+}
+.header-options{
+  margin-left: 159px;
+}
+.contactus-btn{
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 128px;
+  height: 52px;
+  justify-content: center;
+}
+.contact-us{
+  color: #000000;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  width: 82px;
   text-align: center;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.language{
+  margin: 26px 104px 27px 94px;
+  color: #1D1F22;
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-transform: uppercase;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*----------------------CONTENT---------------------------------------*/
+/*----------------------PART1 BG-IMAGE------------------------------------------*/
+.info-header-bg{
+  height: 1037px;
+  background: url('./images/fond\ 1.png');
+  background-color: #242726;
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: relative;
+  z-index: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info-header{
+  padding-top: 175px ;
+  padding-left: 144px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.info-title{
+  max-width: 637px;
+  max-height: 222px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 58px;
+  line-height: 70.7px;
+  margin-bottom: 15px;
+}
+.info-desc{
+  color: #BFBEBF;
+  
+  font-size: 19px;
+  line-height: 25.87px;
+  max-width: 487px;
+  min-height: 152px;
+  text-align: justify;
+  
+}
+.discover{
+  margin-top: 31px;
+}
+.btn-discover{
+  border: 3px solid #2E8174;
+  border-radius: 15px;
+  max-width: 150px;
+  max-height: 56px;
+  padding: 17px 23px;
+  color: #FFFFFF;
+  margin-left: 97px;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: justify;
+}
+/*--------------------PART2 FIRSTBLOCK-------------------------*/
+.first-block-container{
+  background-color: #FFFFFF;
+  box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
+  max-width: 1240px;
+  min-height: 500px;
+  position: relative;
+  top: -86px;
+  z-index: 2;
+  margin: 0 auto;
+  
+  justify-content: center;
+  
+}
+.first-block-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.f-block-title{
+  color: #000000;
+  font-family: Montserrat-SemiBold;
+  font-size: 40px;
+  line-height: 48.76px;
+  max-width: 475px;
+  max-height: 251px;
+  text-align: justify;
+  padding-right: 50px;
+  font-weight: 600;
+}
+.f-content-desc{
+  color: #807F7F;
+  line-height: 25.87px;
+  max-width: 460px;
+  text-align: justify;
+  padding-right: 80px;
+  font-weight: 500;
+  
+}
+.hangin{
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+.f-block-btn{
+  color: #000000;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: justify;
+}
+/*---------------first-block-end-----------------------------------*/
+.breakpoint{
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 106px;
+  position: relative;
+  top: -120px;
+}
+.trait{
+  width: 181px;
+  height: 60px;
+}
+/*---------------end-breakpoint----------------------------------------*/
+/*-------------------second-block--------------------------------------*/
+.second-block-title{
+  position: relative;
+  top: -120px;
+  display: flex;
+  justify-content: center;
+  
+}
+.s-block-t{
+  margin-left:327px;
+  margin-right: 333px;
+  color: #000000;
+  font-family: Montserrat-SemiBold;
+  font-size: 50px;
+  line-height: 48.76px;
+  width: 780px;
+  text-align: justify;
+  font-weight: 580;
+}
+.second-block-container{
+  margin-left: 144px;
+  margin-right: 139px;
+}
+.second-block-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.second-block-image{
+  width: 127px;
+  height: 127px;
+  margin-bottom: 6px;
+}
+.section-block{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.section-block h5 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 30px;
+  max-width: 241px;
+  text-align: justify;
+  margin-bottom: 24px;
+}
+.section-block p {
+  color: #807F7F;
+  line-height: 25.87px;
+  max-width: 298px;
+  text-align: justify;
+}
+
+.btn-second-block{
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 297px;
+  height: 50px;
+  margin: 70px auto;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.btn-s-b-link{
+  color: #000000;
+  font-family: Montserrat-SemiBold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  padding: 16px 24px;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*---------------------footer--------------------------------------*/
+.footer-wrapper{
+  justify-content: space-around;
+}
+footer{
+  background-color: #242726;
+  width: 1440px;
+  max-height: 290px;
+}
+.img-footer{
+  width: 258px;
+  height: 103px;
+  margin-top: 68px;
+  margin-bottom: 99px;
+}
+.footer-email-p{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  line-height: 23px;
+  text-align: justify;
+}
+.footer-copyright{
+  color: #818181;
+  font-family: Montserrat;
+  font-size: 10px;
+  line-height: 12.19px;
+  text-align: justify;
+}
+.img-social{
+  height: 60px;
+  width: 60px;
 }
