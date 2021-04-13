@@ -62,7 +62,7 @@ function App() {
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             </p>
-            <div className="hangin flexcenter"><a href="#!" className="f-block-btn">hang in there</a></div>
+            <div className="hangin flexcenter"><a href="#!" className="f-block-btn">Hang in there</a></div>
           </div>
           </div>
         </div>
@@ -124,19 +124,19 @@ function App() {
       <footer>
         <div className="footer-wrapper"> 
         {/*---------------------------------------------------footer-section1---------------------------------------*/}
-          <div className="footer-section sec1">
+          <div className="footer-section sec1 ">
             <img src={aleaiLogo} alt="footerimg" className="img-footer"></img>
           </div>
           {/*---------------------------------------------------footer-section2---------------------------------------*/}
-          <div className="footer-section sec2">
-            <div className="footer-email">
+          <div className="footer-section sec2 ">
+            <div className="footer-email ">
               <p className="footer-email-p">Send us your email to stay tuned</p>
               <div className="email-inp">
                 <input className="footer-email-input" type="email" placeholder="yourmail@email.com"></input>
                 <span className="email-btn"><span>XOXO</span></span>
                 </div>
             </div>
-            <div className="footer-copyright">
+            <div className="footer-copyright ">
               <p className="footer-copyright">© 2020. All rights reserved.</p>
             </div>
           </div>
@@ -151,6 +151,27 @@ function App() {
           </div>
         </div>
       </footer>
+      <div className="tablet-footer">
+        <div className="tablet-footer-wrapper">
+          <div className="tablet-footer-part1">
+          <div className="footer-email ">
+              <p className="footer-email-p">Send us your email to stay tuned</p>
+              <div className="email-inp">
+                <input className="footer-email-input" type="email" placeholder="yourmail@email.com"></input>
+                <span className="email-btn"><span>XOXO</span></span>
+                </div>
+            </div>
+          </div>
+          <div className="tablet-footer-part2">
+            <div className="footer-section sec1 ">
+            <img src={aleaiLogo} alt="footerimg" className="img-footer"></img>
+            </div>
+            <div className="footer-copyright ">
+              <p className="footer-copyright">© 2020. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
