@@ -7,6 +7,7 @@ import consulting from './images/icon 3.png'
 import facebook from './images/facebook.png'
 import linkedin from './images/linked in.png'
 import twitter from './images/twitter.png'
+import burgerMenu from './images/Burger Menu.png'
 
 function App() {
   return (
@@ -35,6 +36,12 @@ function App() {
       {/*-----------------------------------content--------------------------------------------- */}
       <content>
         <div className="info-header-bg">
+          <div className="header-tablet">
+            <img src={aleaiLogo} alt="logoimgg" className="logo-tablet"></img>
+            <div className="hamburger-icon">
+              <img src={burgerMenu} alt="burger" className="burger-icon"></img>
+            </div>
+          </div>
           <div className="info-header">
             <h1 className="info-title">BE CAREFUL TO RESPECT THE DESIGN!</h1>
             <p className="info-desc">Technologies : HTML CSS JS<br/>
@@ -53,7 +60,7 @@ function App() {
             <div className="f-block-content">
             <p className="f-content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in <br/>voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             </p>
             <div className="hangin flexcenter"><a href="#!" className="f-block-btn">hang in there</a></div>
           </div>
@@ -72,25 +79,37 @@ function App() {
           <div className="section-block">
             <img src={danger} alt="danger" className="second-block-image"></img>
             <h5>Lorem ipsum</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>Lorem ipsum dolor sit amet,
+               consectetur adipiscing elit,sed do 
+               eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad 
+                minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat.
             </p>
           </div>
           <div className="section-block">
           <img src={del} alt="del" className="second-block-image"></img>
           <h5>Lorem ipsum</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p>Lorem ipsum dolor sit amet,
+               consectetur adipiscing elit,sed do 
+               eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad 
+                minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat.
             </p>
           </div>
           <div className="section-block">
           <img src={consulting} alt="consulting" className="second-block-image"></img>
           <h5>Consulting</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p>Lorem ipsum dolor sit amet,
+               consectetur adipiscing elit,sed do 
+               eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad 
+                minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat.
             </p>
           </div>
           </div>
@@ -101,11 +120,14 @@ function App() {
         {/*---------------------end second block cards---------------------------------------*/}
         
       </content>
+      {/*---------------------------------------------------footer---------------------------------------*/}
       <footer>
         <div className="footer-wrapper"> 
+        {/*---------------------------------------------------footer-section1---------------------------------------*/}
           <div className="footer-section sec1">
             <img src={aleaiLogo} alt="footerimg" className="img-footer"></img>
           </div>
+          {/*---------------------------------------------------footer-section2---------------------------------------*/}
           <div className="footer-section sec2">
             <div className="footer-email">
               <p className="footer-email-p">Send us your email to stay tuned</p>
@@ -118,6 +140,7 @@ function App() {
               <p className="footer-copyright">© 2020. All rights reserved.</p>
             </div>
           </div>
+          {/*---------------------------------------------------footer-section3---------------------------------------*/}
           <div className="footer-section sec3">
             <p className="follow">Follow us</p>
             <div className="social-icons">
