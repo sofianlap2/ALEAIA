@@ -102,20 +102,23 @@ function App() {
         
       </content>
       <footer>
-        <div className="footer-wrapper flexcenter"> 
-          <div className="footer-section">
+        <div className="footer-wrapper"> 
+          <div className="footer-section sec1">
             <img src={aleaiLogo} alt="footerimg" className="img-footer"></img>
           </div>
-          <div className="footer-section">
+          <div className="footer-section sec2">
             <div className="footer-email">
               <p className="footer-email-p">Send us your email to stay tuned</p>
-              <input className="footer-email-input" type="email"></input>
+              <div className="email-inp">
+                <input className="footer-email-input" type="email" placeholder="yourmail@email.com"></input>
+                <span className="email-btn"><span>XOXO</span></span>
+                </div>
             </div>
             <div className="footer-copyright">
               <p className="footer-copyright">© 2020. All rights reserved.</p>
             </div>
           </div>
-          <div className="footer-section">
+          <div className="footer-section sec3">
             <p className="follow">Follow us</p>
             <div className="social-icons">
               <img src={facebook} alt="facebook" className="img-social"></img>
