@@ -102,7 +102,7 @@ function App() {
           </div>
           <div className="section-block">
           <img src={consulting} alt="consulting" className="second-block-image"></img>
-          <h5>Consulting</h5>
+          <h5 className="consulting-title">Consulting</h5>
           <p>Lorem ipsum dolor sit amet,
                consectetur adipiscing elit,sed do 
                eiusmod tempor incididunt ut labore
@@ -151,6 +151,7 @@ function App() {
           </div>
         </div>
       </footer>
+      {/*-----------------------------------footer-tablet---------------------------------------------------------*/}
       <div className="tablet-footer">
         <div className="tablet-footer-wrapper">
           <div className="tablet-footer-part1">

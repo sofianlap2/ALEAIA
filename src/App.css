@@ -519,7 +519,7 @@ footer{
   transform: translateY(-40px);
   display: block;
   width: 768px;
-  height: 291px;
+  height: 350px;
   background-color: #1D1F22;
 }
 .tablet-footer-wrapper{
@@ -614,12 +614,12 @@ footer{
   bottom: 55px
 }
 .info-header-bg{
- height: 810px; 
+ height: 730px; 
 }
 .first-block-container{
   max-width: 299px;
   height: 424px;    
-  top: -86px;
+  top: -150px;
   align-items: flex-start;
   }
   .first-block-wrapper {
@@ -669,15 +669,16 @@ footer{
     margin-top: 31px;
     margin-bottom: 31px;
     margin-left: 156px;
-    top: -86px;
+    top: -150px;
   }
   .trait{
     width: 55px;
     height: 19px;
   }
   .second-block-title{
-    top: -86px;  
+    top: -156px;  
     max-width: 318px; 
+    margin: 0 auto;
   }
   .s-block-t{
     margin-left:31px;
@@ -688,4 +689,109 @@ footer{
     width: 318px;
     text-align: center;
   }
+  .second-block-container{
+    top: -130px;
+    margin-left: 40px;
+    margin-right: 37px;
+  }
+  .section-block h5{
+  font-size: 16px;
+  line-height: 19px;
+  width: 114px;
+  margin-left: 20px;
+  }
+ 
+ .section-block p {
+  font-size: 14px;
+  line-height: 19.07px;
+  width: 298px;
+  text-align: justify;
+ }
+ .second-block-image{
+   margin-bottom: 17px;
+   width: 70px;
+   height: 70px;
+ }
+ .btn-second-block{
+   position: relative;
+   bottom: 30px;
+  width: 206px;
+  height: 37px;
+  border-radius: 7px;
+ }
+ .btn-s-b-link{
+  font-size: 12px;
+  line-height: 16.34px;
+  width: 177px;
+  text-align: center;
+  padding: 10px 10px;
+ }
+ .footer-email-p{
+  font-size: 14px;
+  line-height: 17.07px;
+  width: 238px;
+  text-align: justify;
+  font-weight: 600;
+ }
+ .email-inp{
+   width: 249px;
+   height: 40px;
+   overflow: hidden;
+ }
+ .footer-email-input{
+   transform: translateY(-3px);
+  width: 173px;
+  height: 120%;
+  border-radius: 0;
+ }
+ .email-btn{
+   position: relative;
+   left: 8px;
+   bottom:3toppx;
+   width: 50px;
+   padding: 12px 6px;
+ }
+ .footer-email-input::placeholder{
+  font-size: 14px;
+  line-height: 17.07px;
+  width: 155px;
+  font-weight: 600;
+ }
+ .email-btn span{
+  font-size: 14px;
+  line-height: 19px;
+  width: 26px;
+ }
+
+.tablet-footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.tablet-footer-part1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+
+}
+.img-footer{
+  width: 78px;
+  height: 31px;
+  top:70px;
+  right:50px
+}
+.footer-copyright {
+  position: relative;
+  margin: 0;
+  right:17px;
+  bottom: -32px;
+  font-size: 10px;
+  line-height: 12.19px;
+  width: 140px;
+}
+.tablet-footer{
+  transform: translateY(-120px);
+  height: 227px;
+}
 }
